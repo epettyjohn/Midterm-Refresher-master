@@ -2,26 +2,34 @@
 
 body {
 	background: #000; 
+	}
+
+p, h3 {
+	font-family: 'Karla', sans-serif;
+}
+
+h3 {
+	text-transform:uppercase; 
 }
 
 header{
-	background:#0FF; 
+	
 }
 
 nav{
-	background: #99C; 
+	 
 }
 
 blockquote {
-	background: green; 
+	 
 }
 
 footer{
-	background: red;
+	
 }
 
 section{
-	background: purple; 
+	 
 }
 
 .container_12 {
