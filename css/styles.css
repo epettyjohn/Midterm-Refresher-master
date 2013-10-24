@@ -1,8 +1,8 @@
 /* Stylesheet */
 
 body {
-	background: #000; 
-	}
+	background: url("../img/bg.png");
+		}
 
 p, h3 {
 	font-family: 'Karla', sans-serif;
@@ -33,11 +33,60 @@ section{
 }
 
 .container_12 {
-	background: #FFF; 
+	
 }
 
 
 
+/* 
+ Nav styling
+*/
+
+li {
+  float: left; 
+  line-height: 50px;
+  list-style: none;
+  margin: 0 5px;
+  text-align: right;
+  
+}
+
+a {
+  color: #fff;
+  height: 50px;
+  width: 150px;
+  padding: 0 10px 0 0;
+  display: block;  
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#mozilla a:hover {
+  background: url("../img/firefox.png") no-repeat 30px center;
+  
+}
 
 
+#google a:hover {
+  background: url("../img/chrome.png") no-repeat 30px center;
+  
+}
 
+#apple a:hover {
+  background: url("../img/safari.png") no-repeat 30px center;
+  
+}
+
+#microsoft a:hover {
+  background: url("../img/ie.png") no-repeat 30px center;
+  
+}
+
+#opera a:hover {
+  background: url("../img/opera.png") no-repeat 30px center;
+  
+}
+
+.showgrid {
+        background: url("../img/12-col-grid.gif") !important;
+}
